@@ -5,10 +5,10 @@ package com.mi.pattern.strategy;
  */
 public class Driver
 {
-    public static void main(String[] args) {
-
-
-        APhone aPhone = new FrontCamPhone(new FrontCam(10));
-
+    public static void main(String[] args)
+    {
+        APhone aPhone = new NoCamPhone();
+        aPhone.setTypeOfCam(new NoCam(0));
+        System.out.println(aPhone.dispaly());
     }
 }

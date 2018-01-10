@@ -6,14 +6,23 @@ package com.mi.pattern.strategy;
 public class FrontCamPhone extends APhone {
 
 
+    public FrontCamPhone()
+    {
+
+    }
     public FrontCamPhone(IDisplay iDisplay)
+    {
+        this.iDisplay = iDisplay;
+    }
+
+    public void setTypeOfCam(IDisplay iDisplay)
     {
         this.iDisplay = iDisplay;
     }
 
     public String dispaly()
     {
-        return null;
+        return iDisplay.takeSnap();
     }
 
 

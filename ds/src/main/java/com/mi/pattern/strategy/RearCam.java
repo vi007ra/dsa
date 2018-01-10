@@ -5,16 +5,20 @@ package com.mi.pattern.strategy;
  */
 public class RearCam implements IDisplay
 {
+    int supportedMP;
+
     public RearCam(int supportedMP)
     {
-
+    this.supportedMP = supportedMP;
     }
 
     public String takeSnap() {
-        return null;
+        String string = "Take snap from Rear Camera with " + supportedMP;
+        return string;
     }
 
     public String recordVideo() {
-        return null;
+        String string = "Record video from Rear Camera"  + supportedMP;
+        return string;
     }
 }

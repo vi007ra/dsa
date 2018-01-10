@@ -7,7 +7,7 @@ public abstract class APhone
 {
     IDisplay iDisplay;
     public abstract String dispaly();
-
+    public abstract void setTypeOfCam(IDisplay iDisplay);
     public String makeCall(String destNumber)
     {
         return destNumber;
