@@ -33,8 +33,8 @@ public class CarPrice implements Isubject
         I_OBSERVERS.remove(iObserver);
     }
 
-    public void notifyObservers() {
-
+    public void notifyObservers()
+    {
         for (IObserver iObserver : I_OBSERVERS)
         {
             iObserver.update(price);

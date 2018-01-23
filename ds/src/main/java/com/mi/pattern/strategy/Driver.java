@@ -7,8 +7,14 @@ public class Driver
 {
     public static void main(String[] args)
     {
-        APhone aPhone = new NoCamPhone();
-        aPhone.setTypeOfCam(new NoCam(0));
-        System.out.println(aPhone.dispaly());
+        APhone frontCamPhone = new FrontCamPhone();
+        frontCamPhone.setTypeOfCam(new FrontCam(10));
+
+        APhone iPhone = new FrontCamPhone();
+        iPhone.setTypeOfCam(new RearCam(20));
+
+        System.out.println(frontCamPhone.dispaly());
+        System.out.println(iPhone.dispaly());
+
     }
 }
