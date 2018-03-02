@@ -9,16 +9,18 @@ public class RearCam implements IDisplay
 
     public RearCam(int supportedMP)
     {
-    this.supportedMP = supportedMP;
+        this.supportedMP = supportedMP;
     }
 
-    public String takeSnap() {
+    public String takeSnap()
+    {
         String string = "Take snap from Rear Camera with " + supportedMP;
         return string;
     }
 
-    public String recordVideo() {
-        String string = "Record video from Rear Camera"  + supportedMP;
+    public String recordVideo()
+    {
+        String string = "Record video from Rear Camera" + supportedMP;
         return string;
     }
 }

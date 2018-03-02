@@ -6,6 +6,8 @@ package com.mi.pattern.observer;
 public interface Isubject
 {
     void registerObserver(IObserver iObserver);
+
     void deRegisterObserver(IObserver iObserver);
+
     void notifyObservers();
 }

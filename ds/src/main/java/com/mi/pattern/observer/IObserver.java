@@ -6,6 +6,4 @@ package com.mi.pattern.observer;
 public interface IObserver
 {
     void update(double price);
-
-
 }

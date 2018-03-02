@@ -7,12 +7,16 @@ package com.mi.pattern.strategy;
 public abstract class APhone
 {
     IDisplay iDisplay;
+
     public abstract String dispaly();
+
     public abstract void setTypeOfCam(IDisplay iDisplay);
+
     public String makeCall(String destNumber)
     {
         return destNumber;
     }
+
     public String sendSMS(String destNumber)
     {
         return destNumber;

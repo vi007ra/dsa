@@ -7,7 +7,7 @@ public class ReverseContent
     {
         for (int i = 0; i < a.length / 2; i++)
         {
-            int other  = a.length - i - 1;
+            int other = a.length - i - 1;
             int tmp = a[i];
 
             a[i] = a[other];
@@ -16,6 +16,7 @@ public class ReverseContent
 
         return a;
     }
+
     public static void main(String[] args)
     {
 

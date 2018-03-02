@@ -9,7 +9,10 @@ public class NoCamPhone extends APhone
     {
         return iDisplay.takeSnap();
     }
-    public void setTypeOfCam(IDisplay iDisplay) {
+
+
+    public void setTypeOfCam(IDisplay iDisplay)
+    {
         this.iDisplay = iDisplay;
     }
 }

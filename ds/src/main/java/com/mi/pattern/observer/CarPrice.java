@@ -35,6 +35,7 @@ public class CarPrice implements Isubject
 
     public void notifyObservers()
     {
+
         for (IObserver iObserver : I_OBSERVERS)
         {
             iObserver.update(price);

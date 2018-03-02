@@ -6,18 +6,21 @@ package com.mi.pattern.strategy;
 public class FrontCam implements IDisplay
 {
     int supportedMP;
+
     public FrontCam(int supportedMP)
     {
         this.supportedMP = supportedMP;
     }
 
-    public String takeSnap() {
+    public String takeSnap()
+    {
         String string = "Take snap from Front with " + supportedMP;
         return string;
     }
 
-    public String recordVideo() {
-        String string = "Record video from Front"  + supportedMP;
+    public String recordVideo()
+    {
+        String string = "Record video from Front" + supportedMP;
         return string;
     }
 }

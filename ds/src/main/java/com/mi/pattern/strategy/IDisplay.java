@@ -5,8 +5,9 @@ package com.mi.pattern.strategy;
  */
 public interface IDisplay
 {
-     int supportedMP = 0;
+    int supportedMP = 0;
 
-     String takeSnap();
-     String recordVideo();
+    String takeSnap();
+
+    String recordVideo();
 }

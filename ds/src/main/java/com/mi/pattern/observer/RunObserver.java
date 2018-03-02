@@ -5,7 +5,8 @@ package com.mi.pattern.observer;
  */
 public class RunObserver
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         IObserver aIObserver = new AObserver();
         IObserver bIObserver = new BObserver();
@@ -16,7 +17,6 @@ public class RunObserver
         isubject.registerObserver(aIObserver);
         isubject.registerObserver(bIObserver);
         isubject.registerObserver(cIObserver);
-
 
         isubject.setPrice(2500000.5);
 

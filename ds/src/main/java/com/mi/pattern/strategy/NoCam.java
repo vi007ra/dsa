@@ -3,7 +3,8 @@ package com.mi.pattern.strategy;
 /**
  * Created by VI007RA on 1/10/2018.
  */
-public class NoCam implements IDisplay {
+public class NoCam implements IDisplay
+{
 
     int supportedMP;
 
@@ -12,12 +13,14 @@ public class NoCam implements IDisplay {
         this.supportedMP = supportedMP;
     }
 
-    public String takeSnap() {
+    public String takeSnap()
+    {
         String string = "This is a basic cam";
         return string;
     }
 
-    public String recordVideo() {
+    public String recordVideo()
+    {
         String string = "This is a basic cam";
         return string;
     }
