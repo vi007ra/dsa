@@ -1,4 +1,4 @@
-package com.mi.com.mi.streamapi;
+package com.mi.streamapi;
 
 import java.util.Arrays;
 import java.util.List;

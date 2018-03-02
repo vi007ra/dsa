@@ -1,3 +1,5 @@
+package com.mi.sort;
+
 /**
  * Created by vijayrathi on 17/12/17.
  */
@@ -63,7 +65,7 @@ public class UnionArray
 
         UnionArray.createUnionArray(arr1, arr2);
 
-        System.out.print("UnionArray : ");
+        System.out.print("com.mi.sort.UnionArray : ");
 
         for (int i : unionArray)
         {

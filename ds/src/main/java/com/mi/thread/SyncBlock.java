@@ -1,4 +1,4 @@
-package com.mi.com.mi.thread;
+package com.mi.thread;
 
 import java.util.ArrayList;
 import java.util.List;

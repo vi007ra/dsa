@@ -1,4 +1,4 @@
-package com.mi.com.mi.thread;
+package com.mi.thread;
 
 /**
  * Created by vijayrathi on 04/02/18.

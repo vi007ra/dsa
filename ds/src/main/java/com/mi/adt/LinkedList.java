@@ -1,4 +1,4 @@
-package com.mi.adt.com.mi.adt.ll;
+package com.mi.adt;
 
 /**
  * Created by vijayrathi on 27/01/18.
